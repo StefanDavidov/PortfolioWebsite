@@ -1,6 +1,6 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import TimeLine from "./TimeLine";
+import TimeLine from "./Timeline";
 import PictureCollage from "./PictureCollage";
 
 export default function MostPopularRecipies() {
