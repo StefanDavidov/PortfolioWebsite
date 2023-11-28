@@ -5,6 +5,8 @@ import HomePage from "./HomePage.jsx";
 import CodingJourney from "./CodingJourney";
 import ProjectsPage from "./ProjectsPage";
 import GameSectionPage from "./GameSectionPage";
+import DiscoveryProject from "./DiscoveryProject.jsx";
+import FutureTimeline from "./FutureTimeLine.jsx";
 import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
   {
     path: "/PortfolioWebsite/GameSectionPage",
     element: <GameSectionPage />,
+  },
+  {
+    path: "/PortfolioWebsite/DiscoveryProject",
+    element: <DiscoveryProject />,
+  },
+  {
+    path: "/PortfolioWebsite/FutureTimeline",
+    element: <FutureTimeline />
   },
 ]);
 

@@ -13,7 +13,7 @@ export default PictureCollageValues = [
         with Dr. Olufisayo Omojokun. I truly enjoyed this class as I began to deeply understand 
         concepts and take programming as a passion. Java itself is one of my favorite languages
         as it requires specific syntax, but does not make it difficult to follow those standards.
-        Also, it is straightforward to learn which only further encouraged me to learn.`,
+        Also, it is straightforward to learn which only further encouraged me to learn. IMG - InfoWorld`,
     },
     {
         src: pythonPNG,
@@ -24,7 +24,7 @@ export default PictureCollageValues = [
         my skills by solving problems in Codewars. I would usually start solving problems around
         8 or 9 and then (to my mom's despise) get hooked and code until the morning hours. After a while I
         started to watch college professors teach python through courses like GT 1301 (which I later took at Tech)
-        and CS50.`,
+        and CS50. IMG - TechTroop`,
     },
     {
         src: reactImgPNG,
@@ -34,7 +34,7 @@ export default PictureCollageValues = [
         I could reuse my code and also because of how its hooks work. With the power of hooks I was able to write my
         code without needing to be too verbose as well as being able to implement certian aspects which would otherwise
         be very difficult to implement. This current website is what caused me to learn react, and I am glad that I chose to 
-        use react over a different framework.`,
+        use react over a different framework. IMG - patterns.dev`,
     },
     {
         src: SQLPNG,
@@ -43,6 +43,7 @@ export default PictureCollageValues = [
         pictureText: `I am currently using SQL to build my database project. In this project, I am planning
         on creating a GUI where a user can log in and manage their upcoming projects. Based
          on the location, date, and manager it will then narrow down certain questions and
-        prompt the user what they should inquire about next.`,
-    }
+        prompt the user what they should inquire about next. IMG - AlphaServe`,
+    },
+
 ]

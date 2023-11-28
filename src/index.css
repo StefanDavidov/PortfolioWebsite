@@ -369,3 +369,11 @@
   color: white;
   transition-duration: 700ms;
 }
+.resume {
+  width: 400px;
+  height: auto;
+}
+.gear {
+  width: 700px;
+  height: 400px;
+}

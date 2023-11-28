@@ -1,8 +1,8 @@
 import batmanHill from "../src/images/batmanHill.png";
 import basketballPhoto from "../src/images/basketballPhoto.png";
 import familyPicture from "../src/images/familyPicture.png";
-import { motion } from "framer-motion";
-
+import PicWTesla from "../src/images/PicWTesla.png";
+import SingularRow from "./SingleRow";
 {
   /*
 Change the images to the right to be new images and
@@ -15,7 +15,9 @@ export default function MidSection() {
       <SingularRow
         text="I am Stefan Davidov. Currently I am a freshman at Georgia 
         Tech majoring in Computer Engineering with a specialization in 
-        Distributed Systems & Software Design and Information Internetworks. 
+        Distributed Systems & Software Design and Information Internetworks.
+        My professional interests outside of computer engineering are Machine Learning
+        and CyberSecurity.
         In my free time I enjoy playing basketball, working on outside 
         projects, and hanging out with friends. I hang out a lot with my 
         family and travel. Together we have traveled to Spain, Serbia, 
@@ -43,22 +45,18 @@ export default function MidSection() {
         Denver Nuggets."
         imgSource={familyPicture}
       />
+      <SingularRow
+        text="With this website I am attempting to showcase my CS and ECE experiences
+        through projects and classwork. These experiences showcase my interest in Machine
+        Learning as well as computer hardware and signal processing. The site provides visitors
+        with a detailed description of who I am and what I am passionate about. This ePortfolio 
+        is a professional networking tool, allowing me to connect with others who share a passion
+        for advancing and devloping computer and alogrithims necissary for machine learning."
+        imgSource={PicWTesla}
+      />
     </div>
+    
   );
 }
 
-function SingularRow({ text, imgSource }) {
-  return (
-    <motion.div
-      className="singularRow"
-      initial={{ scale: 0.7 }}
-      whileInView={{ scale: 1 }}
-      transition={{ type: "tween", duration: 1 }}
-    >
-      <section>
-        <p> {text} </p>
-      </section>
-      <motion.img src={imgSource} className="batmanHill" />
-    </motion.div>
-  );
-}
+

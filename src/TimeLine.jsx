@@ -6,6 +6,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import { Link } from 'react-router-dom';
 
 {
   /*
@@ -14,14 +15,14 @@ import "react-vertical-timeline-component/style.min.css";
 */
 }
 
-export default function TimeLine() {
+export default function TimeLine({values}) {
   let schoolIconStyles = { background: "#F7FF58" };
   let projectIconStyles = { background: "#91785D" };
 
   return (
     <div className="timeline">
       <VerticalTimeline layout={"1-column-right"}>
-        {TimelineValues.map((element) => {
+        {values.map((element) => {
           let isSchoolIcon = element.icon === "school";
           let showButton =
             element.buttonText !== undefined &&
@@ -52,7 +53,7 @@ export default function TimeLine() {
                 {element.location}
               </h5>
               <p id="description">{element.description}</p>
-              {showButton && (
+              {showButton && element.link && (
                 <a
                   className={`button ${
                     isSchoolIcon ? "schoolButton" : "projectButton"
@@ -63,6 +64,12 @@ export default function TimeLine() {
                 >
                   {element.buttonText}
                 </a>
+              )}
+              {showButton && !element.link && (
+                <Link to={element.buttonLink} className={`button ${
+                  isSchoolIcon ? "schoolButton" : "projectButton"
+                }`
+              } > { element.buttonText }</Link>
               )}
             </VerticalTimelineElement>
           );
