@@ -89,7 +89,7 @@ export default timelineValues = [
         club.`,
         buttonText: "???",
         link: false,
-        buttonLink: '/PortfolioWebsite/FutureTimeline',
+        buttonLink: '/FutureTimeline',
         date: "???",
         icon: 'school',
     },

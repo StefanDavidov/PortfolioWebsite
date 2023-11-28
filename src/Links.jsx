@@ -4,13 +4,13 @@ export default function Links( { style }) {
     return (
       <ul className={style}>
         
-      <StefanLink title='Home' link="/PortfolioWebsite/"/>
+      <StefanLink title='Home' link="/"/>
       
-      <StefanLink title='Coding Journey' link='/PortfolioWebsite/CodingJourney'/>
+      <StefanLink title='Coding Journey' link='/CodingJourney'/>
   
-      <StefanLink title='Projects' link="/PortfolioWebsite/ProjectsPage"/>
+      <StefanLink title='Projects' link="/ProjectsPage"/>
   
-      <StefanLink title='Game' link='/PortfolioWebsite/GameSectionPage'/>
+      <StefanLink title='Game' link='/GameSectionPage'/>
     </ul>
     );
   }

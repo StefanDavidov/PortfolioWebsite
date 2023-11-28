@@ -9,7 +9,7 @@ export default function LinksExtended({ style }) {
         */}
       <StefanLink
         title="Home"
-        link="/PortfolioWebsite/"
+        link="/"
         content="On this page you can learn more about
         who I am and what I like to do. You can also see
         me with my family and what their hobbies are."
@@ -17,7 +17,7 @@ export default function LinksExtended({ style }) {
 
       <StefanLink
         title="Coding Journey"
-        link="/PortfolioWebsite/CodingJourney"
+        link="/CodingJourney"
         content="Here, I talk about what languages I know,
         how I learned them, and any other activities involving
         how I got to where I am now in my coding journey"
@@ -25,7 +25,7 @@ export default function LinksExtended({ style }) {
 
       <StefanLink
         title="Projects"
-        link="/PortfolioWebsite/ProjectsPage"
+        link="/ProjectsPage"
         content="Here, I showcase some of my more advanced
         coding skills through. I talk about the languages and frameworks
         I used as well as link to the project."
@@ -33,7 +33,7 @@ export default function LinksExtended({ style }) {
 
       <StefanLink
         title="Game"
-        link="/PortfolioWebsite/GameSectionPage"
+        link="/GameSectionPage"
         content="Play a short guessing where you will be 
         prompted with a map and your goal is to guess 
         my location."

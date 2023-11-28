@@ -60,7 +60,7 @@ function TimeLine() {
         <h3 className="vertical-timeline-element-title" style={{ color: "black" }}>Sensor Based Platform </h3>
         <h4 className="vertical-timeline-element-subtitle" style={{ color: "black" }}>
           <button className="projectPageButton2" style={{listStyle:'none'}}>
-          <StefanLink title='More Information' link="/PortfolioWebsite/DiscoveryProject" />
+          <StefanLink title='More Information' link="/DiscoveryProject" />
             </button>
         </h4>
         <p style={{ color: "black" }}>
