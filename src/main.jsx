@@ -7,9 +7,10 @@ import ProjectsPage from "./ProjectsPage";
 import GameSectionPage from "./GameSectionPage";
 import DiscoveryProject from "./DiscoveryProject.jsx";
 import FutureTimeline from "./FutureTimeline.jsx";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createHashRouter, RouterProvider, Route } from "react-router-dom";
 
-const router = createBrowserRouter([
+// changed browser router to hash router might cause problems in the future- reason for change was to make refreshing not crash website
+const router = createHashRouter([
   {
     path: "/PortfolioWebsite",
     element: <HomePage />,
