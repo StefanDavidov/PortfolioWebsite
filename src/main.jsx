@@ -12,27 +12,27 @@ import { createHashRouter, RouterProvider, Route } from "react-router-dom";
 // changed browser router to hash router might cause problems in the future- reason for change was to make refreshing not crash website
 const router = createHashRouter([
   {
-    path: "/PortfolioWebsite",
+    path: "/",
     element: <HomePage />,
   },
   {
-    path: "/PortfolioWebsite/CodingJourney",
+    path: "/CodingJourney",
     element: <CodingJourney />,
   },
   {
-    path: "/PortfolioWebsite/ProjectsPage",
+    path: "/ProjectsPage",
     element: <ProjectsPage />,
   },
   {
-    path: "/PortfolioWebsite/GameSectionPage",
+    path: "/GameSectionPage",
     element: <GameSectionPage />,
   },
   {
-    path: "/PortfolioWebsite/DiscoveryProject",
+    path: "/DiscoveryProject",
     element: <DiscoveryProject />,
   },
   {
-    path: "/PortfolioWebsite/FutureTimeline",
+    path: "/FutureTimeline",
     element: <FutureTimeline />
   },
 ]);
